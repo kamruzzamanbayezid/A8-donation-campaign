@@ -27,7 +27,7 @@
             "title": "Used Clothing Drive",
             "category": "Clothing",
             "category_bg": "rgba(121, 194, 63, 0.20)",
-            "card_bg": "rgba(121, 194, 63, 0.15);",
+            "card_bg": "rgba(121, 194, 63, 0.15)",
             "text_color": "#79C23F",
             "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive.",
             "price": 59.99
@@ -71,7 +71,7 @@
             "title": "Used Clothing Drive",
             "category": "Clothing",
             "category_bg": "rgba(121, 194, 63, 0.20)",
-            "card_bg": "rgba(121, 194, 63, 0.15);",
+            "card_bg": "rgba(121, 194, 63, 0.15)",
             "text_color": "#79C23F",
             "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive.",
             "price": 59.99
@@ -115,7 +115,7 @@
             "title": "Used Clothing Drive",
             "category": "Clothing",
             "category_bg": "rgba(121, 194, 63, 0.20)",
-            "card_bg": "rgba(121, 194, 63, 0.15);",
+            "card_bg": "rgba(121, 194, 63, 0.15)",
             "text_color": "#79C23F",
             "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive.",
             "price": 59.99
