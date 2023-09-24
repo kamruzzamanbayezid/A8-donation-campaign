@@ -1,0 +1,134 @@
+[
+      {
+            "id": 1,
+            "picture": "https://i.ibb.co/0r3kJhQ/Health.png",
+            "title": "Clean water for children",
+            "category": "Health",
+            "category_bg": "#0052ff33",
+            "card_bg": "#43ff64d9",
+            "text_color": "#0052FF",
+            "description": "Children younger than five make up just 10 percent of the world's population, but they comprise 40 percent of those suffering from physical illnesses associated with water contamination worldwide: diarrhea, dehydration, asthma, allergies, and lead poisoning.",
+            "price": 49.99
+      },
+      {
+            "id": 2,
+            "picture": "https://i.ibb.co/1ryhsfW/Education.png",
+            "title": "Good education",
+            "category": "Education",
+            "category_bg": "#ff444a",
+            "card_bg": "#ff444a26",
+            "text_color": "#FF444A",
+            "description": "A good education not only teaches you skills but also helps you broaden your horizons, gain better perspective, and teaches you to think for yourself. People today are quite aware and comfortable speaking about social injustices and other pressing issues.",
+            "price": 29.99
+      },
+      {
+            "id": 3,
+            "picture": "https://i.ibb.co/zxfMqTK/Clothing.png",
+            "title": "Used Clothing Drive",
+            "category": "Clothing",
+            "category_bg": "#79c23f",
+            "card_bg": "#79c23f26",
+            "text_color": "#79C23F",
+            "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive.",
+            "price": 59.99
+      },
+      {
+            "id": 4,
+            "picture": "https://i.ibb.co/GVRHRJ8/Rectangle-4287-2.png",
+            "title": "Better Food for Everyone",
+            "category": "Food",
+            "category_bg": "#f87147",
+            "card_bg": "#f8714726",
+            "text_color": "#F87147",
+            "description": "A well-balanced diet provides all of the: energy you need to keep active throughout the day. nutrients you need for growth and repair, helping you to stay strong and healthy and help to prevent diet-related illness, such as some cancers.",
+            "price": 19.99
+      },
+      {
+            "id": 5,
+            "picture": "https://i.ibb.co/0r3kJhQ/Health.png",
+            "title": "Clean water for children",
+            "category": "Health",
+            "category_bg": "#0052ff33",
+            "card_bg": "#43ff64d9",
+            "text_color": "#0052FF",
+            "description": "Children younger than five make up just 10 percent of the world's population, but they comprise 40 percent of those suffering from physical illnesses associated with water contamination worldwide: diarrhea, dehydration, asthma, allergies, and lead poisoning.",
+            "price": 49.99
+      },
+      {
+            "id": 6,
+            "picture": "https://i.ibb.co/1ryhsfW/Education.png",
+            "title": "Good education",
+            "category": "Education",
+            "category_bg": "#ff444a",
+            "card_bg": "#ff444a26",
+            "text_color": "#FF444A",
+            "description": "A good education not only teaches you skills but also helps you broaden your horizons, gain better perspective, and teaches you to think for yourself. People today are quite aware and comfortable speaking about social injustices and other pressing issues.",
+            "price": 29.99
+      },
+      {
+            "id": 7,
+            "picture": "https://i.ibb.co/zxfMqTK/Clothing.png",
+            "title": "Used Clothing Drive",
+            "category": "Clothing",
+            "category_bg": "#79c23f",
+            "card_bg": "#79c23f26",
+            "text_color": "#79C23F",
+            "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive.",
+            "price": 59.99
+      },
+      {
+            "id": 8,
+            "picture": "https://i.ibb.co/GVRHRJ8/Rectangle-4287-2.png",
+            "title": "Better Food for Everyone",
+            "category": "Food",
+            "category_bg": "#f87147",
+            "card_bg": "#f8714726",
+            "text_color": "#F87147",
+            "description": "A well-balanced diet provides all of the: energy you need to keep active throughout the day. nutrients you need for growth and repair, helping you to stay strong and healthy and help to prevent diet-related illness, such as some cancers.",
+            "price": 19.99
+      },
+      {
+            "id": 9,
+            "picture": "https://i.ibb.co/0r3kJhQ/Health.png",
+            "title": "Clean water for children",
+            "category": "Health",
+            "category_bg": "#0052ff33",
+            "card_bg": "#43ff64d9",
+            "text_color": "#0052FF",
+            "description": "Children younger than five make up just 10 percent of the world's population, but they comprise 40 percent of those suffering from physical illnesses associated with water contamination worldwide: diarrhea, dehydration, asthma, allergies, and lead poisoning.",
+            "price": 49.99
+      },
+      {
+            "id": 10,
+            "picture": "https://i.ibb.co/1ryhsfW/Education.png",
+            "title": "Good education",
+            "category": "Education",
+            "category_bg": "#ff444a",
+            "card_bg": "#ff444a26",
+            "text_color": "#FF444A",
+            "description": "A good education not only teaches you skills but also helps you broaden your horizons, gain better perspective, and teaches you to think for yourself. People today are quite aware and comfortable speaking about social injustices and other pressing issues.",
+            "price": 29.99
+      },
+      {
+            "id": 11,
+            "picture": "https://i.ibb.co/zxfMqTK/Clothing.png",
+            "title": "Used Clothing Drive",
+            "category": "Clothing",
+            "category_bg": "#79c23f",
+            "card_bg": "#79c23f26",
+            "text_color": "#79C23F",
+            "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive.",
+            "price": 59.99
+      },
+      {
+            "id": 12,
+            "picture": "https://i.ibb.co/GVRHRJ8/Rectangle-4287-2.png",
+            "title": "Better Food for Everyone",
+            "category": "Food",
+            "category_bg": "#f87147",
+            "card_bg": "#f8714726",
+            "text_color": "#F87147",
+            "description": "A well-balanced diet provides all of the: energy you need to keep active throughout the day. nutrients you need for growth and repair, helping you to stay strong and healthy and help to prevent diet-related illness, such as some cancers.",
+            "price": 19.99
+      }
+]
