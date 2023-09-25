@@ -38,8 +38,6 @@ const CardDetails = () => {
 
       }
 
-      console.log(cardDetails);
-
       return (
 
             <div className="mt-8 mb-20">

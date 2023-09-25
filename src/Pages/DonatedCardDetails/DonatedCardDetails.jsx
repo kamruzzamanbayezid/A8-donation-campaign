@@ -6,7 +6,7 @@ const DonatedCardDetails = ({ card }) => {
       const { id, picture, card_bg, category, text_color, title, category_bg, price } = card;
 
       return (
-            <div className='lg:p-0 p-2'>
+            <div className='lg:p-0 p-2 mb-4'>
                   <div style={{ backgroundColor: card_bg }} className="relative flex w-full max-w-[48rem] flex-col lg:flex-row rounded-lg">
                         <div className="relative m-0 lg:w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
                               <img
