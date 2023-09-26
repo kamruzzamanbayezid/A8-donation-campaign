@@ -25,11 +25,19 @@ const CardDetails = () => {
             }
             else {
                   const isExist = getCard.find(card => card.id === cardDetails.id)
-                  console.log(isExist);
+                  
                   if (!isExist) {
                         addCard.push(...getCard, cardDetails);
                         localStorage.setItem('card', JSON.stringify(addCard));
                         swal("Donated Successfully!", "Thank you for this great work!", "success");
+                  }
+                  else {
+                        swal({
+                              title: "You have already donated here",
+                              icon: "warning",
+                             
+                              
+                        })
                   }
 
 

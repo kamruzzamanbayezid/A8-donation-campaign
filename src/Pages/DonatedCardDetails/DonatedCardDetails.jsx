@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const DonatedCardDetails = ({ card }) => {
-      console.log(card);
+      
       const { id, picture, card_bg, category, text_color, title, category_bg, price } = card;
 
       return (
