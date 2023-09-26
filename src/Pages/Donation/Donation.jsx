@@ -9,7 +9,9 @@ const Donation = () => {
 
       useEffect(() => {
             const getCard = JSON.parse(localStorage.getItem('card'));
-            setDonatedCards(getCard);
+            if (getCard !== null) {
+                  setDonatedCards(getCard);
+            }
       }, []);
 
       const handleShowAllBtn = () => {
@@ -32,9 +34,11 @@ const Donation = () => {
                               </div>
                   }
 
-                  <div className={`flex items-center justify-center ${showBtn && 'hidden'}`}>
-                        <button onClick={handleShowAllBtn} className="btn bg-[#009444] hover:bg-green-700 text-[#FFF] font-semibold my-9">Show More</button>
-                  </div>
+                  {
+                        donatedCards.length >= 4 && <div className={`flex items-center justify-center ${showBtn && 'hidden'}`}>
+                              <button onClick={handleShowAllBtn} className="btn bg-[#009444] hover:bg-green-700 text-[#FFF] font-semibold my-9">Show More</button>
+                        </div>
+                  }
             </div>
       );
 };

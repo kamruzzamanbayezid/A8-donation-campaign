@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 
 const Home = () => {
 
-      const [donationCards, setDonationCards] = useState([]);
       const [displayCard, setDisplayCard] = useState([]);
       const [inputValue, setInputValue] = useState('');
 
@@ -12,7 +11,6 @@ const Home = () => {
             const fetchData = async () => {
                   const res = await fetch('/data.json');
                   const data = await res.json()
-                  setDonationCards(data);
                   setDisplayCard(data);
             }
             fetchData();
@@ -31,6 +29,10 @@ const Home = () => {
             else if (inputValue === 'Clothing') {
                   const clothingCategory = displayCard.filter(clothing => clothing.category === 'Clothing');
                   setDisplayCard(clothingCategory);
+            }
+            else if (inputValue === 'Food') {
+                  const foodCategory = displayCard.filter(food => food.category === 'Food');
+                  setDisplayCard(foodCategory);
             }
       }
 
