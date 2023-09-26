@@ -33,7 +33,7 @@ const Statistics = () => {
                         chartType="PieChart"
                         data={data}
                         width={"100%"}
-                        height={"400px"}
+                        height={"500px"}
                   />
             </div>
       );
