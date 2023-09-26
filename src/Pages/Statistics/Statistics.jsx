@@ -9,35 +9,29 @@ const Statistics = () => {
       useEffect(() => {
             const getCard = JSON.parse(localStorage.getItem('card'));
             if (getCard !== null) {
-                  const reduceCardPrice = getCard.reduce((previous, current) => previous + current.price, 0)
-                  setYourDonation(reduceCardPrice);
+                  const cardLength = getCard.length;
+                  setYourDonation(cardLength);
             }
       }, []);
 
       useEffect(() => {
             fetch('data.json')
                   .then(res => res.json())
-                  .then(data => setTotalDonation(data.reduce((previous, current) => previous + current.price, 0)))
-      }, [])
-
-      // const reduceTotalCardPrice = totalDonation.reduce((previous, current) => previous + current.price, 0);
-      console.log(totalDonation);
+                  .then(data => setTotalDonation(data.length))
+      }, []);
 
       const data = [
             ["Task", "Hours per Day"],
-            ["Total Donation", totalDonation],
+            ["Total Donation", totalDonation - yourDonation],
             ["Your Donation", yourDonation],
       ];
 
-      const options = {
-            title: "My Daily Activities",
-      };
+
       return (
             <div>
                   <Chart
                         chartType="PieChart"
                         data={data}
-                        options={options}
                         width={"100%"}
                         height={"400px"}
                   />

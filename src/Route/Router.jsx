@@ -27,7 +27,8 @@ const myCustomRouter = createBrowserRouter([
                         path: '/cardDetails/:id',
                         element: <CardDetails></CardDetails>,
                         loader: ({ params }) => fetch('/data.json')
-                  }
+                  },
+
             ],
       }
 ]);

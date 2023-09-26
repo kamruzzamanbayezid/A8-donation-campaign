@@ -34,6 +34,7 @@ const Menu = () => {
                                     Statistics
                               </NavLink>
                         </li>
+                        
                   </ul>
             </div>
       );
