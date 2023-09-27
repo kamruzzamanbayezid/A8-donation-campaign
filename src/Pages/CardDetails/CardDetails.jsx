@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import swal from 'sweetalert';
 
 const CardDetails = () => {
@@ -8,6 +8,8 @@ const CardDetails = () => {
       const { id } = useParams()
 
       const [cardDetails, setCardDetails] = useState('');
+
+      const useNavigates = useNavigate();
 
       useEffect(() => {
             const findCard = cards.find(card => card.id === parseInt(id))
@@ -25,7 +27,7 @@ const CardDetails = () => {
             }
             else {
                   const isExist = getCard.find(card => card.id === cardDetails.id)
-                  
+
                   if (!isExist) {
                         addCard.push(...getCard, cardDetails);
                         localStorage.setItem('card', JSON.stringify(addCard));
@@ -35,20 +37,20 @@ const CardDetails = () => {
                         swal({
                               title: "You have already donated here",
                               icon: "warning",
-                             
-                              
                         })
                   }
 
 
             }
+      }
 
-
+      const handleNavigate = () => {
+            useNavigates(-1);
       }
 
       return (
 
-            <div className="mt-8 mb-20">
+            <div className="mt-8 mb-20 p-2 lg:p-0">
                   <div className="relative mb-10">
                         <img
                               src={cardDetails.picture}
@@ -61,6 +63,8 @@ const CardDetails = () => {
                   </div>
                   <h2 className="text-[#0B0B0B] text-4xl text-center lg:text-start font-bold mb-6">{cardDetails.title}</h2>
                   <p className="text-[#0b0b0bb3] text-center lg:text-start font-normal">{cardDetails.description}</p>
+
+                  <button onClick={handleNavigate} style={{ color: cardDetails.text_color }} className="mt-6 underline text-xl font-medium">Back</button>
             </div>
       )
 };

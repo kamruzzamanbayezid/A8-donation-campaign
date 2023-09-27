@@ -43,7 +43,7 @@ const Home = () => {
       return (
             <div>
                   <div>
-                        <div className="bannerStyle w-full h-[400px] relative mb-7 lg:mb-20">
+                        <div className="bannerStyle w-full h-[400px] relative mb-7 lg:mb-10">
                               <img src="https://i.ibb.co/H4zHnBD/smiley-volunteers-posing-boxes-donation.jpg" alt="Background Image" className="w-full h-full" />
                               <div className="w-full h-full absolute top-0 left-0 bg-[#fffffff2]"></div>
                               <div className="text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">

@@ -8,7 +8,7 @@ const DonatedCardDetails = ({ card }) => {
       return (
             <div className='lg:p-0 p-2 mb-4'>
                   <div style={{ backgroundColor: card_bg }} className="relative flex w-full max-w-[48rem] flex-col lg:flex-row rounded-lg">
-                        <div className="relative m-0 lg:w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
+                        <div className="relative m-0 lg:w-2/5 shrink-0 overflow-hidden  bg-white bg-clip-border text-gray-700">
                               <img
                                     src={picture}
                                     alt="image"

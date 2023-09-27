@@ -19,8 +19,6 @@ const Donation = () => {
             setShowBtn(true);
       }
 
-      console.log(donatedCards);
-
       return (
             <div>
                   {
@@ -44,7 +42,7 @@ const Donation = () => {
                                     }
 
                                     {
-                                          donatedCards.length >= 4 && <div className={`flex items-center justify-center ${showBtn && 'hidden'}`}>
+                                          donatedCards.length > 4 && <div className={`flex items-center justify-center ${showBtn && 'hidden'}`}>
                                                 <button onClick={handleShowAllBtn} className="btn bg-[#009444] hover:bg-green-700 text-[#FFF] font-semibold my-9">Show More</button>
                                           </div>
                                     }
